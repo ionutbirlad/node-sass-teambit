@@ -49,6 +49,11 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #3048a8;
 }
 
 .section-pink {
@@ -428,4 +433,50 @@ main .section-pink.two .container .card:last-child {
 }
 
 /*FOOTER*/
+
+footer {
+  color: #58402c;
+}
+
+footer .row {
+  display: block;
+}
+
+footer .row .l {
+  width: 400px;
+  float: left;
+}
+
+footer .row .l img {
+  float: left;
+  width: 50px;
+  margin-right: 25px;
+}
+
+footer .row .l p {
+  float: left;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+footer .row .r {
+  width: 700px;
+  float: left;
+}
+
+footer .row .r section {
+  float: left;
+  width: 140px;
+  text-align: left;
+}
+
+footer .row .r section h5 {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+footer .row .r section a {
+  font-size: 14px;
+  line-height: 25px;
+}
 

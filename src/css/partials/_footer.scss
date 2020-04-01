@@ -1,0 +1,37 @@
+footer{
+  color: $font_color;
+    .row{
+      display: block;
+      .l{
+        width: 400px;
+        float: left;
+        img{
+          float: left;
+          width: 50px;
+          margin-right: 25px;
+        }
+        p{
+          float: left;
+          font-size: 18px;
+          font-weight: 600;
+        }
+      }
+      .r{
+        width: 700px;
+        float: left;
+        section{
+          float: left;
+          width: 140px;
+          text-align: left;
+          h5{
+            font-size: 15px;
+            margin-bottom: 15px;
+          }
+          a{
+            font-size: 14px;
+            line-height: 25px;
+          }
+        }
+      }
+    }
+}
