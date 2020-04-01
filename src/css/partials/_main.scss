@@ -1,7 +1,26 @@
 main{
   .section-pink.one{
-    img{
-      width: 280px;
+    padding-bottom: 0;
+    .container{
+      border-bottom: 1px solid #bdb5af;
+      img{
+        width: 280px;
+      }
+    }
+  }
+  .section-pink.two{
+    padding-bottom: 0;
+    .container{
+      .card:last-child{
+        @extend .card;
+        #illustration-mini{
+          width: 70px;
+        }
+      }
+      // border-bottom: 1px solid #bdb5af;
+      img{
+        width: 280px;
+      }
     }
   }
 }

@@ -52,24 +52,27 @@ a {
 .section-pink {
   background: #ffe7d2;
   color: #58402c;
+  padding: 50px 0;
 }
 
 .section-white {
   background: #ffffff;
   color: #58402c;
+  padding: 50px 0;
 }
 
 .row {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px 0;
+  padding: 40px 0;
+  text-align: center;
 }
 
 /*HEADER*/
 
 header {
-  height: 100vh;
+  min-height: 100vh;
   color: #58402c;
 }
 
@@ -190,13 +193,34 @@ nav li a {
 
 /*MAIN*/
 
-main .section-pink.one img {
+main .section-pink.one {
+  padding-bottom: 0;
+}
+
+main .section-pink.one .container {
+  border-bottom: 1px solid #bdb5af;
+}
+
+main .section-pink.one .container img {
+  width: 280px;
+}
+
+main .section-pink.two {
+  padding-bottom: 0;
+}
+
+main .section-pink.two .container .card:last-child #illustration-mini {
+  width: 70px;
+}
+
+main .section-pink.two .container img {
   width: 280px;
 }
 
 /*CARD*/
 
-.card {
+.card,
+main .section-pink.two .container .card:last-child {
   width: 270px;
   height: 200px;
   display: flex;
@@ -205,6 +229,7 @@ main .section-pink.one img {
   justify-content: center;
   text-align: center;
   font-size: 18px;
+  margin: 0 10px;
 }
 
 .card #illustration {
