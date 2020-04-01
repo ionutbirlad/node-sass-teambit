@@ -14,12 +14,7 @@ header{
         justify-content: center;
         .btn-base{
           @extend .btn-base;
-          border: 1px solid $buttons_color;
           color: $buttons_color;
-          i{
-            font-size: 1.2em;
-            margin-right: 5px;
-          }
           &:hover{
             background: $buttons_color;
             color: $primary_color_1;

@@ -1,31 +1,41 @@
 .banner{
   height: calc(100vh - 75px);
-  padding: 60px 0;
+  padding: 80px 0;
   .left{
     width: 50%;
     height: 100%;
     float: left;
-    padding-right: 20px;
+    padding-right: 80px;
     h1{
       font-size: 50px;
       font-weight: 700;
-      margin-bottom: 30px;
+      margin-bottom: 40px;
     }
     p{
       font-size: 20px;
-      margin-bottom: 40px;
+      margin-bottom: 50px;
     }
     .cta{
       width: 100%;
       margin-bottom: 20px;
       button{
         float: left;
+        background: $buttons_color;
+        color: $primary_color_1;
+        &:hover{
+          background: $buttons_color_hover;
+        }
       }
       p{
         float: left;
         font-size: 12px;
         margin: 0 20px;
         line-height: 35px;
+      }
+    }
+    a{
+      i{
+        font-size: 12px;
       }
     }
   }

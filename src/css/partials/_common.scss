@@ -14,13 +14,17 @@ body{
 }
 
 .btn-base{
-  border: 1px solid #000000;
+  border: 1px solid $buttons_color;
   border-radius: 5px;
   padding: 8px 15px;
   background: $primary_color_1;
   cursor: pointer;
   font-weight: bold;
   transition: 0.4s;
+  i{
+    font-size: 1.2em;
+    margin-right: 5px;
+  }
 }
 
 ul{
