@@ -1,0 +1,31 @@
+.message-cloud{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background: $buttons_color;
+  cursor: pointer;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $primary_color_1;
+  &:hover{
+    animation: m 0.5s 1;
+  }
+  svg{
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@keyframes m {
+  from{
+    transform: scale(1.2) rotate(-5deg);
+  }
+  to{
+    transform: scale(1) rotate(0deg);
+  }
+}

@@ -1,5 +1,5 @@
 header{
-  min-height: 100vh;
+  height: 720px;
   color: $font_color;
   .container{
     height: 100%;
@@ -20,6 +20,34 @@ header{
             color: $primary_color_1;
           }
         }
+      }
+    }
+  }
+}
+
+.hidden-header{
+  color: $font_color;
+  height: 75px;
+  border-bottom: 1px solid $font_color;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  background: $primary_color_1;
+  transition: 0.5s;
+  .btn-container{
+    float: right;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .btn-base{
+      @extend .btn-base;
+      color: $buttons_color;
+      &:hover{
+        background: $buttons_color;
+        color: $primary_color_1;
       }
     }
   }

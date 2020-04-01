@@ -21,9 +21,11 @@ body{
   cursor: pointer;
   font-weight: bold;
   transition: 0.4s;
-  i{
-    font-size: 1.2em;
-    margin-right: 5px;
+  svg {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 8px;
+    float: left;
   }
 }
 
@@ -108,4 +110,11 @@ a{
 
 .without{
   padding: 0;
+}
+
+.hidden-header.hd{
+  top: -75px;
+}
+.hd{
+  top: -75px;
 }
