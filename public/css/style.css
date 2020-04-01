@@ -69,6 +69,62 @@ a {
   text-align: center;
 }
 
+.lft {
+  width: 600px;
+  height: 100%;
+  float: left;
+  position: relative;
+  padding: 70px;
+}
+
+.lft h2 {
+  margin-bottom: 10px;
+  line-height: 40px;
+}
+
+.lft p {
+  margin-bottom: 35px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.lft .min {
+  margin-top: 35px;
+}
+
+.rgt {
+  width: 600px;
+  height: 100%;
+  float: left;
+  position: relative;
+  padding: 70px;
+}
+
+.rgt h2 {
+  margin-bottom: 10px;
+  line-height: 40px;
+}
+
+.rgt p {
+  margin-bottom: 35px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.rgt .min {
+  margin-top: 35px;
+}
+
+.min {
+  width: 270px;
+  display: block;
+}
+
+.max {
+  width: 770px;
+  position: absolute;
+}
+
 /*HEADER*/
 
 header {
@@ -215,6 +271,56 @@ main .section-pink.two .container .card:last-child #illustration-mini {
 
 main .section-pink.two .container img {
   width: 280px;
+}
+
+main .section-white.three {
+  padding-bottom: 0;
+}
+
+main .section-white.three .container .lft {
+  height: 470px;
+}
+
+main .section-white.three .container .lft .max {
+  left: -30%;
+}
+
+main .section-white.four {
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+main .section-white.four .container .rgt {
+  height: 470px;
+}
+
+main .section-white.four .container .rgt .max {
+  right: -30%;
+}
+
+main .section-white.five {
+  padding-bottom: 0;
+}
+
+main .section-white.five .container .lft {
+  height: 470px;
+}
+
+main .section-white.five .container .lft .max {
+  left: -30%;
+}
+
+main .section-white.six {
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+main .section-white.six .container .rgt {
+  height: 470px;
+}
+
+main .section-white.six .container .rgt .max {
+  right: -30%;
 }
 
 /*CARD*/

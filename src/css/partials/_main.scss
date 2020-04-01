@@ -23,4 +23,50 @@ main{
       }
     }
   }
+  .section-white.three{
+    padding-bottom: 0;
+    .container{
+      .lft{
+        height: 470px;
+        .max{
+          left: -30%;
+        }
+      }
+    }
+  }
+  .section-white.four{
+    padding-bottom: 0;
+    overflow: hidden;
+    .container{
+      .rgt{
+        height: 470px;
+        .max{
+          right: -30%;
+        }
+      }
+    }
+  }
+  .section-white.five{
+    padding-bottom: 0;
+    .container{
+      .lft{
+        height: 470px;
+        .max{
+          left: -30%;
+        }
+      }
+    }
+  }
+  .section-white.six{
+    padding-bottom: 0;
+    overflow: hidden;
+    .container{
+      .rgt{
+        height: 470px;
+        .max{
+          right: -30%;
+        }
+      }
+    }
+  }
 }
