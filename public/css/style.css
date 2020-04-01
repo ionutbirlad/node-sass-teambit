@@ -8,6 +8,10 @@
 
 /*COMMON*/
 
+body {
+  font-family: "Lato", sans-serif;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -20,11 +24,14 @@
 }
 
 .btn-base,
-header .container .btn-base {
-  border-style: none;
-  border-radius: 10px;
-  padding: 10px 15px;
+header .container .upper-header .btn-container .btn-base {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 8px 15px;
   background: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.4s;
 }
 
 ul {
@@ -39,17 +46,40 @@ a {
 /*HEADER*/
 
 header {
-  height: 75px;
+  height: 100vh;
   color: #58402c;
 }
 
 header .container {
   height: 100%;
+}
+
+header .container .upper-header {
+  height: 75px;
   border-bottom: 1px solid #58402c;
 }
 
-header .container .btn-base {
+header .container .upper-header .btn-container {
   float: right;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .container .upper-header .btn-container .btn-base {
+  border: 1px solid #30488f;
+  color: #30488f;
+}
+
+header .container .upper-header .btn-container .btn-base i {
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+header .container .upper-header .btn-container .btn-base:hover {
+  background: #30488f;
+  color: #ffffff;
 }
 
 /*LOGO*/
@@ -60,12 +90,15 @@ header .container .btn-base {
 
 #logo h4 {
   line-height: 75px;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 /*NAVBAR*/
 
 nav {
   float: right;
+  margin-right: 40px;
 }
 
 nav li {

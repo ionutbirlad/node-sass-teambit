@@ -1,3 +1,7 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
 .clearfix::after{
   content: "";
   display: table;
@@ -10,10 +14,13 @@
 }
 
 .btn-base{
-  border-style: none;
-  border-radius: 10px;
-  padding: 10px 15px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 8px 15px;
   background: $primary_color_1;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.4s;
 }
 
 ul{
