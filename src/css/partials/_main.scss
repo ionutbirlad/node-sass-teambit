@@ -69,7 +69,7 @@ main{
     }
   }
   .section-pink.seven{
-    padding-bottom: 0;
+    padding-bottom: 50px;
     .container{
       h2{
         font-size: 40px;
@@ -103,6 +103,18 @@ main{
               margin-bottom: 0;
             }
           }
+        }
+        &::before{
+          font-family: "FontAwesome";
+          content: "\f10d";
+          font-weight: 900;
+          display: block;
+          position: absolute;
+          top: -25px;
+          left: 0px;
+          font-size: 40px;
+          cursor: pointer;
+          color: $buttons_color;
         }
       }
       .cta{

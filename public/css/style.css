@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*RESET*/
 
 * {
@@ -123,6 +125,10 @@ a {
 .max {
   width: 770px;
   position: absolute;
+}
+
+.without {
+  padding: 0;
 }
 
 /*HEADER*/
@@ -323,7 +329,7 @@ main .section-white.six .container .rgt .max {
 }
 
 main .section-pink.seven {
-  padding-bottom: 0;
+  padding-bottom: 50px;
 }
 
 main .section-pink.seven .container h2 {
@@ -365,6 +371,19 @@ main .section-pink.seven .container .blockquote .img .names p {
   font-size: 12px;
   line-height: 15px;
   margin-bottom: 0;
+}
+
+main .section-pink.seven .container .blockquote::before {
+  font-family: "FontAwesome";
+  content: "\F10D";
+  font-weight: 900;
+  display: block;
+  position: absolute;
+  top: -25px;
+  left: 0px;
+  font-size: 40px;
+  cursor: pointer;
+  color: #30488f;
 }
 
 main .section-pink.seven .container .cta {
