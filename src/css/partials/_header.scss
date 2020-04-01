@@ -1,0 +1,12 @@
+header{
+  height: 75px;
+  color: $font_color;
+  .container{
+    height: 100%;
+    border-bottom: 1px solid $font_color;
+    .btn-base{
+      @extend .btn-base;
+      float: right;
+    }
+  }
+}
