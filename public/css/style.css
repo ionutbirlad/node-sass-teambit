@@ -49,6 +49,23 @@ a {
   color: inherit;
 }
 
+.section-pink {
+  background: #ffe7d2;
+  color: #58402c;
+}
+
+.section-white {
+  background: #ffffff;
+  color: #58402c;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0;
+}
+
 /*HEADER*/
 
 header {
@@ -172,6 +189,28 @@ nav li a {
 }
 
 /*MAIN*/
+
+main .section-pink.one img {
+  width: 280px;
+}
+
+/*CARD*/
+
+.card {
+  width: 270px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card #illustration {
+  width: 140px;
+  margin-bottom: 30px;
+}
 
 /*FOOTER*/
 

@@ -35,3 +35,19 @@ a{
   text-decoration: none;
   color: inherit;
 }
+
+.section-pink{
+  background: $primary_color_2;
+  color: $font_color;
+}
+.section-white{
+  background: $primary_color_1;
+  color: $font_color;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0;
+}

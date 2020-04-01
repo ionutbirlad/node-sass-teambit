@@ -1,0 +1,14 @@
+.card{
+  width: 270px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  #illustration{
+    width: 140px;
+    margin-bottom: 30px;
+  }
+}
