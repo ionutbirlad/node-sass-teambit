@@ -311,7 +311,6 @@ main .section-white.five .container .lft .max {
 }
 
 main .section-white.six {
-  padding-bottom: 0;
   overflow: hidden;
 }
 
@@ -321,6 +320,72 @@ main .section-white.six .container .rgt {
 
 main .section-white.six .container .rgt .max {
   right: -30%;
+}
+
+main .section-pink.seven {
+  padding-bottom: 0;
+}
+
+main .section-pink.seven .container h2 {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+main .section-pink.seven .container .blockquote {
+  width: 630px;
+  height: 460px;
+  background: #ffffff;
+  padding: 40px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  position: relative;
+}
+
+main .section-pink.seven .container .blockquote p {
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+main .section-pink.seven .container .blockquote .img {
+  position: absolute;
+}
+
+main .section-pink.seven .container .blockquote .img img {
+  width: 38px;
+}
+
+main .section-pink.seven .container .blockquote .img .names {
+  float: right;
+  text-align: left;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+main .section-pink.seven .container .blockquote .img .names p {
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 0;
+}
+
+main .section-pink.seven .container .cta {
+  margin-bottom: 20px;
+}
+
+main .section-pink.seven .container .cta button {
+  float: left;
+  background: #30488f;
+  color: #ffffff;
+}
+
+main .section-pink.seven .container .cta button:hover {
+  background: #233569;
+}
+
+main .section-pink.seven .container .cta p {
+  float: left;
+  font-size: 12px;
+  margin: 0 20px;
+  line-height: 35px;
 }
 
 /*CARD*/

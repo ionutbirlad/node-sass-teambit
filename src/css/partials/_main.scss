@@ -58,13 +58,68 @@ main{
     }
   }
   .section-white.six{
-    padding-bottom: 0;
     overflow: hidden;
     .container{
       .rgt{
         height: 470px;
         .max{
           right: -30%;
+        }
+      }
+    }
+  }
+  .section-pink.seven{
+    padding-bottom: 0;
+    .container{
+      h2{
+        font-size: 40px;
+        line-height: 60px;
+      }
+      .blockquote{
+        width: 630px;
+        height: 460px;
+        background: $primary_color_1;
+        padding: 40px;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        position: relative;
+        p{
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+        .img{
+          position: absolute;
+          img{
+            width: 38px;
+          }
+          .names{
+            float: right;
+            text-align: left;
+            margin-left: 10px;
+            padding-top: 5px;
+            p{
+              font-size: 12px;
+              line-height: 15px;
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+      .cta{
+        margin-bottom: 20px;
+        button{
+          float: left;
+          background: $buttons_color;
+          color: $primary_color_1;
+          &:hover{
+            background: $buttons_color_hover;
+          }
+        }
+        p{
+          float: left;
+          font-size: 12px;
+          margin: 0 20px;
+          line-height: 35px;
         }
       }
     }
