@@ -37,9 +37,9 @@ header .container .upper-header .btn-container .btn-base {
   transition: 0.4s;
 }
 
-.btn-base svg,
-.hidden-header .btn-container .btn-base svg,
-header .container .upper-header .btn-container .btn-base svg {
+.btn-base img,
+.hidden-header .btn-container .btn-base img,
+header .container .upper-header .btn-container .btn-base img {
   width: 1.2em;
   height: 1.2em;
   margin-right: 8px;
@@ -551,7 +551,7 @@ footer .row .r section a {
           animation: m 0.5s 1;
 }
 
-.message-cloud svg {
+.message-cloud img {
   width: 30px;
   height: 30px;
 }
