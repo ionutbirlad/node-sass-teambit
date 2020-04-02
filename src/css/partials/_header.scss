@@ -31,8 +31,18 @@ header{
         }
       }
       .dropdown-outer{
+        animation: a 0.5s 1;
         display: none;
         position: absolute;
+        &::before{
+          content: "";
+          position: absolute;
+          width: 100px;
+          height: 80px;
+          top: -70px;
+          transform: translate(-10%);
+          z-index: 3;
+        }
         .dropdown-inner{
           width: 100px;
           height: 140px;
@@ -99,8 +109,18 @@ header{
     }
   }
   .dropdown-outer{
+    animation: a 0.5s 1;
     display: none;
     position: absolute;
+    &::before{
+      content: "";
+      position: absolute;
+      width: 100px;
+      height: 80px;
+      top: -70px;
+      transform: translate(-10%);
+      z-index: 3;
+    }
     .dropdown-inner{
       width: 100px;
       height: 140px;
@@ -126,5 +146,14 @@ header{
         }
       }
     }
+  }
+}
+
+@keyframes a {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
   }
 }

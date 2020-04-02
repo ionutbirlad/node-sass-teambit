@@ -20,17 +20,14 @@ $(document).ready(function () {
 
 // DROPDOWN HEADER
   $(document).on("mouseenter", "nav li:first-child", function () {
-      // $(".dropdown-outer:visible").hide();
-      $(this).find(".dropdown-outer").show(300);
 
-
+    $(this).find(".dropdown-outer").show();
 
   });
 
   $(document).on("mouseleave", ".dropdown-outer:visible", function () {
 
-    $(this).hide(300);
-
+    $(this).hide();
 
   });
 

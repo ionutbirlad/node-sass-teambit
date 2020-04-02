@@ -191,8 +191,20 @@ header .container .upper-header li a i {
 }
 
 header .container .upper-header .dropdown-outer {
+  -webkit-animation: a 0.5s 1;
+          animation: a 0.5s 1;
   display: none;
   position: absolute;
+}
+
+header .container .upper-header .dropdown-outer::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  top: -70px;
+  transform: translate(-10%);
+  z-index: 3;
 }
 
 header .container .upper-header .dropdown-outer .dropdown-inner {
@@ -265,8 +277,20 @@ header .container .upper-header .hidden-header .btn-container .btn-base:hover {
 }
 
 .hidden-header .dropdown-outer {
+  -webkit-animation: a 0.5s 1;
+          animation: a 0.5s 1;
   display: none;
   position: absolute;
+}
+
+.hidden-header .dropdown-outer::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  top: -70px;
+  transform: translate(-10%);
+  z-index: 3;
 }
 
 .hidden-header .dropdown-outer .dropdown-inner {
@@ -293,6 +317,26 @@ header .container .upper-header .hidden-header .btn-container .btn-base:hover {
   display: block;
   font-size: 14px;
   line-height: 30px;
+}
+
+@-webkit-keyframes a {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes a {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 /*LOGO*/
