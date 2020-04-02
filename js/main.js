@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+// HEADER ONSCROLL
   var navTop = $("header");
   var navMain = $(".hidden-header");
 
@@ -14,6 +15,30 @@ $(document).ready(function () {
       navMain[0].classList.add("hd");
     }
   }
+// HEADER ONSCROLL
+
+
+// DROPDOWN HEADER
+  $(document).on("mouseenter", "nav li:first-child", function () {
+      // $(".dropdown-outer:visible").hide();
+      $(this).find(".dropdown-outer").show(300);
+
+
+
+  });
+
+  $(document).on("mouseleave", ".dropdown-outer:visible", function () {
+
+    $(this).hide(300);
+
+
+  });
+
+
+
+
+
+// DROPDOWN HEADER
 
 
 

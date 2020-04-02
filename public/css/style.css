@@ -181,6 +181,46 @@ header .container .upper-header .btn-container .btn-base:hover {
   color: #ffffff;
 }
 
+header .container .upper-header li {
+  position: relative;
+}
+
+header .container .upper-header li a i {
+  position: relative;
+  transform: translate(0, -5%);
+}
+
+header .container .upper-header .dropdown-outer {
+  display: none;
+  position: absolute;
+}
+
+header .container .upper-header .dropdown-outer .dropdown-inner {
+  width: 100px;
+  height: 140px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 10px;
+  transform: translate(-10%);
+  border: 1px solid lightgrey;
+  background: #fff;
+  z-index: 2;
+  box-shadow: 3px 3px 5px 3px #ccc;
+}
+
+header .container .upper-header .dropdown-outer .dropdown-inner li {
+  display: block;
+}
+
+header .container .upper-header .dropdown-outer .dropdown-inner li a {
+  display: block;
+  font-size: 14px;
+  line-height: 30px;
+}
+
 .hidden-header {
   color: #58402c;
   height: 75px;
@@ -213,6 +253,46 @@ header .container .upper-header .hidden-header .btn-container .btn-base {
 header .container .upper-header .hidden-header .btn-container .btn-base:hover {
   background: #30488f;
   color: #ffffff;
+}
+
+.hidden-header li {
+  position: relative;
+}
+
+.hidden-header li a i {
+  position: relative;
+  transform: translate(0, -5%);
+}
+
+.hidden-header .dropdown-outer {
+  display: none;
+  position: absolute;
+}
+
+.hidden-header .dropdown-outer .dropdown-inner {
+  width: 100px;
+  height: 140px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 10px;
+  transform: translate(-10%);
+  border: 1px solid lightgrey;
+  background: #fff;
+  z-index: 2;
+  box-shadow: 3px 3px 5px 3px #ccc;
+}
+
+.hidden-header .dropdown-outer .dropdown-inner li {
+  display: block;
+}
+
+.hidden-header .dropdown-outer .dropdown-inner li a {
+  display: block;
+  font-size: 14px;
+  line-height: 30px;
 }
 
 /*LOGO*/
